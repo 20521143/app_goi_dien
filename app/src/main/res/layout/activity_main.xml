@@ -37,5 +37,11 @@
         android:src="@drawable/ic_call">
     </ImageButton>
 
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact" />
+
 
 </LinearLayout>

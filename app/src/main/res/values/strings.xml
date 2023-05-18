@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">goi_dien_thoai</string>
+    <string name="app" />
+    <string name="contacts" />
 </resources>

@@ -3,6 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.camoi.goi_dien_thoai">
 
+<!--    <permission-->
+<!--        android:name="com.camoi.contacts.data.permission.READ_DATABASE"-->
+<!--        android:label="Permission to read database"-->
+<!--        android:description="Allow the requesting app to read the provider app's database" ></permission>-->
+    <uses-permission android:name="com.camoi.contacts.data.permission.READ_DATABASE"></uses-permission>
+    <uses-permission android:name="com.camoi.contacts.data.TERMS_READ"></uses-permission>
+
+
+
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
@@ -28,5 +37,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>
