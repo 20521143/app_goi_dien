@@ -20,7 +20,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private EditText number;
-    private TextView textViewContact;
     private ImageButton call;
     private ImageButton contacts;
    // static int PERMISSION_CODE = 100;
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         number = (EditText) findViewById(R.id.et_number);
         call = (ImageButton) findViewById(R.id.call);
         contacts = (ImageButton) findViewById(R.id.contacts);
-        textViewContact = (TextView) findViewById(R.id.tv_contact);
+
 
        /* if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE}, PERMISSION_CODE);
